@@ -1,0 +1,24 @@
+# Write your default config options here!
+
+af=format=float::2,extrastereo,lavfi=[aecho=0.84:0.84:77:0.25],scaletempo
+#af=drc=2:0.06125
+vf=screenshot
+vo=opengl-hq
+ao=pulse
+osd-font="Helvetica + STHeiti SC:style=Regular"
+sub-text-font="Helvetica + STHeiti SC:style=Regular"
+sub-codepage=utf8:gbk
+autosync=1
+framedrop=yes
+mc=60
+hr-seek=yes
+#hwdec=vaapi-copy
+screenshot-format=png
+screenshot-png-compression=0
+softvol=yes
+softvol-max=300
+ass-style-override=no
+sws-scaler=lanczos
+http-header-fields="User-Agent: Mozilla/5.0"
+autofit-larger=1364x700
+audio-format=float
