@@ -1,6 +1,6 @@
 # Write your default config options here!
 
-af=format=float:48000:2,lavfi=[aeval=val(ch)*0.25:stereo,ladspa=tap_reverb:tap_reverb:c=c1=6|c2=-6|c7=6,aformat=channel_layouts=stereo],extrastereo,scaletempo
+af=format=float:48000:2,lavfi=[aeval=val(ch)*0.5:stereo,ladspa=tap_reverb:tap_reverb:c=c0=1000|c1=0|c2=-6|c7=6,aformat=channel_layouts=stereo],extrastereo,scaletempo
 #af=drc=2:0.06125
 vf=screenshot
 vo=opengl-hq
