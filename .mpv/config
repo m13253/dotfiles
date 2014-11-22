@@ -1,24 +1,25 @@
 # Write your default config options here!
 
-af=format=float:48000:2,lavfi=[aeval=val(ch)*0.5:stereo,ladspa=tap_reverb:tap_reverb:c=c0=1000|c1=0|c2=-6|c7=6,aformat=channel_layouts=stereo],extrastereo,scaletempo
-#af=drc=2:0.06125
-vf=screenshot
-vo=opengl-hq
+af=scaletempo
 ao=pulse
-osd-font="Helvetica + STHeiti SC:style=Regular"
-sub-text-font="Helvetica + STHeiti SC:style=Regular"
-sub-codepage=utf8:gbk
+ass-style-override=no
+audio-format=float
+autofit-larger=1364x700
 autosync=1
-framedrop=yes
-mc=60
+cache-file=TMP
+framedrop=vo
 hr-seek=yes
-#hwdec=vaapi-copy
+http-header-fields="User-Agent: Mozilla/5.0"
+hwdec=vaapi-copy
+mc=60
+osd-font="Helvetica + STHeiti SC:style=Regular"
 screenshot-format=png
 screenshot-png-compression=0
-softvol=yes
 softvol-max=300
-ass-style-override=no
+softvol=yes
+sub-codepage=utf8:gbk
+sub-text-font="Helvetica + STHeiti SC:style=Regular"
 sws-scaler=lanczos
-http-header-fields="User-Agent: Mozilla/5.0"
-autofit-larger=1364x700
-audio-format=float
+vf=screenshot
+vo=opengl-hq
+volume=33

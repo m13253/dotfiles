@@ -1,18 +1,17 @@
 # Write your default config options here!
 
-vf=screenshot
-vo=gl
 ao=pulse
-fontconfig=1
-font="Helvetica + STHeiti SC"
-ass=1
 ass-hinting=0
+ass=1
+autosync=30
+font="Helvetica + STHeiti SC"
+fontconfig=1
+framedrop=1
+hr-mp3-seek=1
+http-header-fields="User-Agent: Mozilla/5.0"
+mc=60
 subfont-osd-scale=3
 subfont-text-scale=5
-autosync=30
-framedrop=1
-mc=60
-hr-mp3-seek=1
 sws=9
-http-header-fields="User-Agent: Mozilla/5.0"
-
+vf=screenshot
+vo=gl
