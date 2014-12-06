@@ -77,6 +77,7 @@ export LESS='-RM'
 PS1='[\u@\h \W]\$ '
 export PYTHONSTARTUP=$HOME/.pystartup
 export WINEDLLOVERRIDES=winemenubuilder.exe=d
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel' JAVA_FONTS=/usr/share/fonts/TTF
 export PYTHONPATH=$HOME/work/PythonPath
 export VDPAU_DRIVER=va_gl
 export MMPAT_PATH_TO_CFG=/etc/timidity++/freepats
