@@ -20,3 +20,4 @@ PackConstructorInitializers: NextLine
 ReflowComments: false
 SpaceAfterCStyleCast: true
 ...
+
